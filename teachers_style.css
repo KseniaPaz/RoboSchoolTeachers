@@ -38,6 +38,40 @@ summary::-webkit-details-marker {
 }
 .teachers__box {
   padding-top: 60px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(6, 360px);
   gap: 40px;
+}
+.teachers__item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.teachers__name {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38.4px;
+  text-align: left;
+  color: #141024;
+}
+.teachers__prof {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: rgba(20, 16, 36, 0.6980392157);
+}
+.teachers__next {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: #D52027;
+}
+
+.button__box {
+  display: flex;
+  margin-top: 60px;
+  gap: 10px;
+  justify-content: flex-end;
 }/*# sourceMappingURL=teachers_style.css.map */
