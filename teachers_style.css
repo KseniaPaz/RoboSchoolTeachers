@@ -38,7 +38,6 @@ summary::-webkit-details-marker {
 }
 .teachers__box {
   padding-top: 60px;
-  display: grid;
-  grid-template-columns: repeat(6, 360px);
+  display: flex;
   gap: 40px;
 }/*# sourceMappingURL=teachers_style.css.map */

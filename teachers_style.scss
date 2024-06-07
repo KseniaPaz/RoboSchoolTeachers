@@ -43,5 +43,35 @@
         grid-template-columns: repeat(6, 360px);
         gap: 40px;
     }
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    &__name {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 38.4px;
+      text-align: left;
+      color: #141024;
+    }
+
+    &__prof {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 28.8px;
+      text-align: left;
+      color: #141024B2;
+    }
+
+    &__next {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 28.8px;
+      text-align: left;
+      color: #D52027;
+    }
   }
 
