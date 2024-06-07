@@ -28,4 +28,20 @@
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 180px;
+
+    &__heading {
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 80px;
+        text-align: left;
+        color: #141024;
+    }
+
+    &__box {
+        padding-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(6, 360px);
+        gap: 40px;
+    }
   }
+
